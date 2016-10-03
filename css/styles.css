@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Anton', sans-serif;
+	color: #000;
+}
+
+
+/** HEADER **/
+/* ***************************************** */
+#header-nav {
+	margin-bottom: 0px;
+	background-color: #f2f4fc;
+}
+
+.navbar-brand {
+	/*padding-top: 15px;*/
+}
+
+.navbar-brand h1 {
+	color: #000;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+/** END HEADER **/
+
+
+/* HOME PAGE */
+/* ***************************************** */
+.menu-item {
+	background-color: #fcf3f2;
+}
+
+.menu-item h3 {
+	margin-top: 10px;
+}
+
+#menu-item-description {
+	font-weight: 100;
+}
+/* END HOME PAGE */
+
+
+/* EXTRA-SMALL DEVICES ONLY */
+/* ***************************************** */
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #f6fcf2;
+	}
+
+	#collapsable-nav li {
+		border: 1px solid black;
+		margin: 0;
+		padding: 0;
+	}
+}
+/* END XS DEVICES */
